@@ -1,0 +1,63 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.image {
+   position: relative;
+   width: 100%;
+   height: 99vh;
+}
+
+.imageabout {
+   position: relative;
+   width: 100%;
+   height: 50vh;
+}
+
+.imagevolunteer {
+   position: relative;
+   width: 100%;
+   height: 83vh;
+}
+
+h2 {
+   position: absolute;
+   top: 45%;
+   left: 0;
+   width: 100%;
+}
+
+h1 {
+   position: absolute;
+   top: 45%;
+   left: 0;
+   width: 100%;
+}
+
+.button {
+   position: absolute;
+   bottom: 1em;
+   right: 41%;
+   background-color: black;
+   border-radius: 0.2em;
+   color: white;
+   padding: 0.5em 0.5em;
+   size: 20px;
+   width: 22%;
+   height: fit-content;
+}
+
+.contentOnImage {
+   color:white;
+   font: bold Okra, Helvetica, sans-serif;
+   font-size: 28px;
+   max-width: 70%;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.4);
+   padding: 5px;
+   align-content: flex-start;
+}
